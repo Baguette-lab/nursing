@@ -1,0 +1,13 @@
+{
+  "name": "pathwise-interactive-mastery",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/course.test.mjs && node tests/ui.test.mjs && node tests/visuals.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
